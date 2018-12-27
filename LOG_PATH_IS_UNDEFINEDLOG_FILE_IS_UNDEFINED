@@ -1,0 +1,72 @@
+2018-12-26 18:32:06,971 [INFO] [main] com.definesys.angrypecker.AngrypeckerApplication [StartupInfoLogger.java : 50] Starting AngrypeckerApplication on DESKTOP-UHM2SCK with PID 11972 (D:\ideaWorkspace\angrypecker\target\classes started by 徐磊 in D:\ideaWorkspace\angrypecker)
+2018-12-26 18:32:06,976 [INFO] [main] com.definesys.angrypecker.AngrypeckerApplication [SpringApplication.java : 679] The following profiles are active: dev
+2018-12-26 18:32:08,800 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-26 18:32:08,803 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-26 18:32:08,901 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 81ms. Found 0 repository interfaces.
+2018-12-26 18:32:09,447 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c01ef1b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:09,525 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:09,528 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@15dd5ac2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:09,531 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e4f39463] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:09,536 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:09,552 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27712977] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-26 18:32:10,320 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8080 (http)
+2018-12-26 18:32:10,392 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2018-12-26 18:32:10,393 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-26 18:32:10,420 [INFO] [main] org.apache.catalina.core.AprLifecycleListener [DirectJDKLog.java : 173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;D:\jdk8\bin;D:\jdk8\jre\bin;D:\Program Files\git\Git\bin;D:\Program Files\maven\apache-maven-3.3.9\bin;C:\Users\徐磊\AppData\Local\Microsoft\WindowsApps;;.]
+2018-12-26 18:32:10,713 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2018-12-26 18:32:10,714 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 3680 ms
+2018-12-26 18:32:11,047 [INFO] [main] org.springframework.boot.web.servlet.RegistrationBean [DynamicRegistrationBean.java : 111] Filter webStatFilter was not registered (possibly already registered?)
+2018-12-26 18:32:11,049 [INFO] [main] org.springframework.boot.web.servlet.RegistrationBean [DynamicRegistrationBean.java : 111] Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-26 18:32:11,753 [INFO] [main] org.springframework.security.web.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java : 43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e76b097, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d0b0da6, org.springframework.security.web.header.HeaderWriterFilter@5922d3e9, org.springframework.security.web.authentication.logout.LogoutFilter@869d87c, com.definesys.angrypecker.filter.JwtAuthenticationTokenFilter@5d51e129, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2cd62003, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3337d04c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2be95d31, org.springframework.security.web.session.SessionManagementFilter@7e72a6cc, org.springframework.security.web.access.ExceptionTranslationFilter@737db7f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32e652b6]
+2018-12-26 18:32:11,992 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-26 18:32:12,656 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'taskScheduler'
+2018-12-26 18:32:12,990 [ERROR] [main] org.apache.catalina.util.LifecycleBase [DirectJDKLog.java : 175] Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1001)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.definesys.angrypecker.AngrypeckerApplication.main(AngrypeckerApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1067)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1149)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:561)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:998)
+	... 14 common frames omitted
+2018-12-26 18:32:12,996 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Stopping service [Tomcat]
+2018-12-26 18:32:13,069 [INFO] [main] o.s.b.a.logging.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java : 142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-26 18:32:13,073 [ERROR] [main] o.s.boot.diagnostics.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-12-26 18:32:13,076 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'taskScheduler'
+2018-12-26 18:32:13,093 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 208] Shutting down ExecutorService 'applicationTaskExecutor'
